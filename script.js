@@ -1,35 +1,40 @@
 function sendEmail() {
     const recipients = [
-        "library@iiti.ac.in",
-        "registrar@iiti.ac.in",
-        "director@iiti.ac.in",
-        "dean.academics@iiti.ac.in"
+      "romum.cbfc@nic.in",
+  "ceo.cbfc@nic.in",
+  "sraomum.cbfc@nic.in",
+  "jsfilms.inb@nic.in",
+  "minister.inb@gov.in",
+  "secy.inb@nic.in",
+  "toieditorial@timesgroup.com",
+  "feedback@hindustantimes.com",
+  "grievanceofficer@aajtak.com",
+  "editor@intoday.com"
     ];
 
-    const subject = "Remove The Satanic Verses Immediately – Blasphemy Has No Place in IIT Indore";
+    const subject = "Objection to Potentially Offensive Dialogue in Upcoming Film Udaipur Files";
 
-    const body = `
-To the IIT Indore Library Team and Administration:
+    const body = `Dear Sir/Madam,
 
-I write with deep disgust to demand the immediate removal of Salman Rushdie’s The Satanic Verses from your shelves. This book is a hateful provocation — a vile, blasphemous assault on Islam that insulted millions, sparked global outrage, violent riots, and remains deeply disrespectful to the Prophet and our faith traditions.
+I hope this message finds you well.
 
-Despite recent media noise claiming the ban was “untraceable” and thus court‑voided on November 5, 2024, it's reckless and unacceptable to stock this garbage in a learning environment. Allowing such inflammatory content under the banner of “academic freedom” is a slap in the face to the religious sentiments of Muslim students and staff. 
-Let me be absolutely clear: this book was banned nationally for its blasphemy, and reintroducing it to your collection supplies raw fuel for division, hurt, and anger. No highbrow intellectual justification can hide the fact that it's deeply offensive and socially harmful — and it has no place in an Indian academic institution.
+I am writing to raise a serious concern regarding the upcoming film titled Udaipur Files, scheduled to release on 11 July 2025. According to circulating clips and early reports, the film includes a line spoken by a female character that references the age of Ummul Mu’mineen Aisha (may Allah be pleased with her) at the time of her marriage to Prophet Muhammad (peace and blessings be upon him):
 
-I expect swift action:
+“"Muhammad Paighambar(Sallallaho alaihi wasallam) ki jb shadi hui thi to unki wife Syyeda Aayesha ki age kya thi”
 
-- Remove The Satanic Verses from library catalogues and physical location.
-- Publicly confirm via email that you’ve taken it off the shelves.
-- Commit to reviewing any future titles that could offend religious sensibilities before acquisition.
+This statement—especially in a cinematic setting—is highly sensitive and, depending on tone and intent, may be perceived by many as blasphemous (gustakhi) toward sacred Islamic personalities.
 
-If this is not done immediately, I will escalate the matter to the Ministry of Education, concerned religious organizations, and both national and local media — and I will seek legal remedies under Section 295A of the Indian Penal Code for deliberate insensitivity toward religious beliefs.
+As concerned citizens and members of a diverse and respectful society, we request that this matter be looked into with urgency. If the scene exists and is found to be offensive, we respectfully urge:
 
-Do the right thing.
+Immediate review of the scene by the appropriate authorities.
 
-Awaiting a prompt confirmation.
+Removal or alteration of the dialogue if it is found to be disrespectful or inflammatory.
 
-Furious Regards,
-`.trim();
+Issuance of clarification or disclaimer by the filmmakers regarding the intent of such content.
+
+Religious harmony in our country depends on mutual respect, especially in public media. We trust that responsible authorities will address this matter fairly and swiftly to prevent hurt and unrest.
+
+Thank you for your time and attention.`.trim();
 
     const to = recipients.join(",");
     const mailtoLink = `mailto:${to}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
