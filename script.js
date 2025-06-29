@@ -22,7 +22,7 @@ I am writing to raise a serious concern regarding the upcoming film titled Udaip
 
 “"Rasulullah(Sallallaho alaihi wasallam) ki jb shadi hui thi to unki wife Sayyeda Aayesha ki age kya thi”
 
-This statement—especially in a cinematic setting—is highly sensitive and, depending on tone and intent, may be perceived by many as blasphemous (gustakhi) toward sacred Islamic personalities.
+This statement—especially in a cinematic setting—is highly sensitive and, depending on tone and intent,  perceived by many as blasphemous (gustakhi) toward sacred Islamic personalities.
 
 As concerned citizens and members of a diverse and respectful society, we request that this matter be looked into with urgency. If the scene exists and is found to be offensive, we respectfully urge:
 
