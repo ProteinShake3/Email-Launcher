@@ -20,7 +20,7 @@ I hope this message finds you well.
 
 I am writing to raise a serious concern regarding the upcoming film titled Udaipur Files, scheduled to release on 11 July 2025. According to circulating clips and early reports, the film includes a line spoken by a female character that references the age of Ummul Mu’mineen Aisha (may Allah be pleased with her) at the time of her marriage to Prophet Muhammad (peace and blessings be upon him):
 
-“"Muhammad Paighambar(Sallallaho alaihi wasallam) ki jb shadi hui thi to unki wife Syyeda Aayesha ki age kya thi”
+“"Rasulullah(Sallallaho alaihi wasallam) ki jb shadi hui thi to unki wife Sayyeda Aayesha ki age kya thi”
 
 This statement—especially in a cinematic setting—is highly sensitive and, depending on tone and intent, may be perceived by many as blasphemous (gustakhi) toward sacred Islamic personalities.
 
