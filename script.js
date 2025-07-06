@@ -11,7 +11,7 @@ function sendEmail() {
   "editor@intoday.com"
 ];
 
-    const subject = "“The Udaipur Files” फिल्म पर प्रतिबंध हेतु याचिका – धार्मिक भावनाओं का उल्लंघन और सामाजिक सौहार्द को खत";
+    const subject = "“The Udaipur Files” फिल्म पर प्रतिबंध हेतु याचिका – धार्मिक भावनाओं का उल्लंघन और सामाजिक सौहार्द को खतरा";
 
     const body = `प्रति: 
 माननीय भारत के मुख्य न्यायाधीश 
