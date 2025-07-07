@@ -7,7 +7,6 @@ function sendEmail() {
   "jsfilms.inb@nic.in",
   "minister.inb@gov.in",
   "secy.inb@nic.in",
-  "toieditorial@timesgroup.com",
   "editor@intoday.com"
 ];
 
