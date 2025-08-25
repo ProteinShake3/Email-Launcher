@@ -56,12 +56,13 @@ https://drive.google.com/file/d/16tAOdwCdwAud6cR0bZlgOH4yrpo71kGX/view?usp=shari
 `.trim();
 
     const to = recipients.join(",");
-    // const mailtoLink = `mailto:${to}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
-    // window.location.href = mailtoLink;
-    const mailtoLink = `https://mail.google.com/mail/?view=cm&fs=1&to=${to}&su=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
-window.open(mailtoLink, "_blank");
+    const mailtoLink = `mailto:${to}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+    window.location.href = mailtoLink;
+//     const mailtoLink = `https://mail.google.com/mail/?view=cm&fs=1&to=${to}&su=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+// window.open(mailtoLink, "_blank");
 
 }
+
 
 
 
