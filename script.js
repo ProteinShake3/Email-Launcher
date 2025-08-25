@@ -6,8 +6,10 @@ function sendEmail() {
     "cp-ahd@gujarat.gov.in"
 ];
 
-    const subject = "अहमदाबाद के सेवेंथ डे स्कूल की घटना के बाद, स्कूल में तोड़फोड़ करने वाले तत्वों और पैगंबर हजरत मोहम्मद साहब के खिलाफ अभद्र टिप्पणी करने वालों तथा बैठक के दौरान तलवारें लहराने वालों के खिलाफ सख्त कार्रवाई की जाए।
-";
+    const subject = `अहमदाबाद के सेवेंथ डे स्कूल की घटना के बाद, 
+स्कूल में तोड़फोड़ करने वाले तत्वों और पैगंबर हजरत मोहम्मद साहब के खिलाफ 
+अभद्र टिप्पणी करने वालों तथा बैठक के दौरान तलवारें लहराने वालों के खिलाफ सख्त कार्रवाई की जाए।`;
+
 
     const body = `सेवा में, 
 माननीय पुलिस महानिदेशक (डीजीपी), गुजरात राज्य, गांधीनगर।
@@ -54,8 +56,12 @@ https://drive.google.com/file/d/16tAOdwCdwAud6cR0bZlgOH4yrpo71kGX/view?usp=shari
 `.trim();
 
     const to = recipients.join(",");
-    const mailtoLink = `mailto:${to}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
-    window.location.href = mailtoLink;
+    // const mailtoLink = `mailto:${to}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+    // window.location.href = mailtoLink;
+    const mailtoLink = `https://mail.google.com/mail/?view=cm&fs=1&to=${to}&su=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+window.open(mailtoLink, "_blank");
+
 }
+
 
 
