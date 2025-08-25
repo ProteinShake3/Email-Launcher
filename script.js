@@ -1,4 +1,5 @@
 function sendEmail() {
+    console.log("function called");
     const recipients = [
     "sp-ahd@gujarat.gov.in",
     "dgp-gs@gujarat.gov.in",
@@ -56,4 +57,5 @@ https://drive.google.com/file/d/16tAOdwCdwAud6cR0bZlgOH4yrpo71kGX/view?usp=shari
     const mailtoLink = `mailto:${to}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
     window.location.href = mailtoLink;
 }
+
 
