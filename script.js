@@ -1,7 +1,7 @@
 function sendEmail() {
     console.log("function called");
     const recipients = [
-    "cp-ahd@gujarat.gov.in"
+    "cr-ahd@gujarat.gov.in"
 ];
 
     const subject = `अहमदाबाद के सेवेंथ डे स्कूल की घटना के बाद, 
@@ -60,6 +60,7 @@ https://drive.google.com/file/d/16tAOdwCdwAud6cR0bZlgOH4yrpo71kGX/view?usp=shari
 // window.open(mailtoLink, "_blank");
 
 }
+
 
 
 
