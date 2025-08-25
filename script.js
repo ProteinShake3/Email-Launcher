@@ -52,7 +52,7 @@ function sendEmail() {
 सादर
 https://drive.google.com/file/d/16tAOdwCdwAud6cR0bZlgOH4yrpo71kGX/view?usp=sharing
 `.trim();
-
+console.log(recipients);
     const to = recipients.join(",");
     const mailtoLink = `mailto:${to}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
     window.location.href = mailtoLink;
@@ -60,6 +60,7 @@ https://drive.google.com/file/d/16tAOdwCdwAud6cR0bZlgOH4yrpo71kGX/view?usp=shari
 // window.open(mailtoLink, "_blank");
 
 }
+
 
 
 
